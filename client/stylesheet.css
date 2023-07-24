@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-container {
+    display: inline-block;
+    position: relative;
+    background-color: #3e2daa;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #3e2daa;
+}
+
+.app-title {
+    color: #222;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+footer {
+    color: #060606;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    font-size: 16px;
+}
+
+.heart {
+    color: #ff5555;
+}
+
+main {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #200853c4;
+}
+
+th, td {
+    padding: 5px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: #8b8694c4;
+    color: #fff;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) td {
+    background-color: #e0e0e0;
+}
+
+thead th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Style the delete and edit buttons */
+#table button {
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#table button:hover {
+    background-color: #e60000;
+}
+
+tbody tr {
+    margin-bottom: 5px;
+}
+
+/* Style the input section */
+div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #744caf;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
